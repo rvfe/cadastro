@@ -2,13 +2,13 @@
 
 namespace App\Entity;
 
-use App\Repository\GeradornumRepository;
+use App\Repository\GeradorRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass=GeradornumRepository::class)
+ * @ORM\Entity(repositoryClass=GeradorRepository::class)
  */
-class Geradornum
+class Geradorrand
 {
     /**
      * @ORM\Id
